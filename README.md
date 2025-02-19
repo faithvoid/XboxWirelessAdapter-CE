@@ -25,3 +25,6 @@ This repo currently contains the following bits:
 `$ sudo python3 emulator.py <network_interface>`  
 Superuser privileges are required for opening a raw ethernet socket.  
 As for the network interface - for a real Xbox, provide the name of the network adapter connected to same network as the Xbox; for Xemu, bind both Xemu and emulator to the same network interface, `lo` works just fine for this purpose.
+
+## Cortana Edition TODO
+- Implement SSID scanning by grabbing SSID information with "iw dev scan wlan0", converting the (up to 12) located SSIDs to hexadecimal, and displaying it.
